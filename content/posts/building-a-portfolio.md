@@ -28,7 +28,7 @@ cover:
     relative: false
     hidden: true
 editPost:
-    URL: "https://github.com/TroyArcher/tarcher.dev/blob/main/content/"
+    URL: "https://github.com/TroyArcher/tarcher.dev/blob/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 ---
@@ -48,9 +48,13 @@ to be tied into a network. This yields some nice benefits, like being able to be
 With company culture being one of the most important factors to me when evaluating a potential employer, I wanted to give them a better idea of who I am to see if I would be a good fit because: *why waste time interviewing with a company that I wouldn't be a good fit for in the first place?*
 
 ## Why Add a Blog?
-Adding a blog to my portfolio was a natural extension of the idea. It provides a platform for me to share my knowledge and experiences as a senior software engineer. Writing about technical topics helps me solidify my understanding, stay up to date with the latest trends, and also give a deeper insight into who I am as a developer and person.
+Adding a blog to my portfolio was a natural extension of the idea. It provides a platform for me to share my knowledge and experiences as a senior software engineer.
 
-Through this medium, I am enabled to share and connect with other developers. While I interact with many different software professionals day to day, I am limited heavily to the scope and domain in which I operate; this does not give me a broad view of the software industry and I feel compelled to expand my skills in order to remain relevant in a rapidly changing industry (shoutout ChatGPT).
+Writing about technical topics helps me solidify my understanding, stay up to date with the latest trends, and also give a deeper insight into who I am as a developer and person.
+
+Through this medium, I am enabled to share and connect with other developers.
+
+While I interact with many different software professionals day to day, I am limited heavily to the scope and domain in which I operate; this does not give me a broad view of the software industry and I feel compelled to expand my skills in order to remain relevant in a rapidly changing industry (shoutout ChatGPT).
 
 Not to mention, it also demonstrates (and let's me grow) my communication skills, which are crucial in any tech role!
 
@@ -65,7 +69,9 @@ When I first thought of this project, I had a few ideas in mind:
 
 In the end, I ended up trying Hugo first because when I looked at how fast it could spin up an implementation, I was sold. I had heard of Hugo a while back, but never really looked into it until now. 
 
-I spent less than an hour getting a basic site up and running. There were ton of great themes to choose from, and I went with PaperMod because I enjoy the clean and minimalist design. It also had a lot of the features I wanted out of the box, like a dark mode toggle, RSS feed, and syntax highlighting for code blocks.
+I spent less than an hour getting a basic site up and running... honestly, it was like 15 minutes.
+
+There were ton of great themes to choose from, and I went with PaperMod because I enjoy the clean and minimalist design. It also had a lot of the features I wanted out of the box, like a dark mode toggle, RSS feed, and syntax highlighting for code blocks.
 
 ### Backend
 - **None**: Since this is a static site, I didn't need a backend.
@@ -76,7 +82,9 @@ I seriously considered integrating with a headless CMS (Content Management Syste
 - **GitHub Pages**: [GitHub Pages](https://pages.github.com/) is a free hosting service for static sites. It integrates seamlessly with GitHub, which makes it easy to deploy my site directly from my repository. I can also use custom domains and HTTPS, which are important for security and professionalism. 
 - **Cloudflare Pages**: [Cloudflare Pages](https://pages.cloudflare.com/) is another great option for hosting static sites. It offers a global CDN, which means my site will load quickly no matter where my visitors are located. It also has built-in support for custom domains and HTTPS, and it integrates with GitHub for easy deployment.
 
-Since I bought my domain through Cloudflare, I decided to go with Cloudflare Pages for hosting. My mind was blown when I realized how incredibly simple it was to set up. I had already purchased my domain, so I set up Cloudflare Pages to integrate with my Github repo, and within minutes I had successfully configured and deployed my site.
+Since I bought my domain through Cloudflare, I decided to go with Cloudflare Pages for hosting. My mind was blown when I realized how incredibly simple it was to set up.
+
+I had already purchased my domain, so I set up Cloudflare Pages to integrate with my Github repo, and within minutes I had successfully configured and deployed my site.
 
 IT WAS SO EASY.
 
@@ -87,8 +95,12 @@ I highly recommend Cloudflare Pages for anyone looking to host a static site. It
 One final win for Cloudflare Pages is the feature in which it automatically creates a preview deployment for each pull request. This is super useful for testing changes before they go live, and it makes collaboration with others much easier.
 
 ## Conclusion
-Building this portfolio and blog has been... surprisingly fast and simple. Like it actually was too fast and easy... I was expecting much more of a challenge. The last major side project I built was a fintech app using React, deployed on AWS with S3 + Lambdas, integrated with ButterCMS, and had a Github Action for CI/CD.
+Building this portfolio and blog has been... surprisingly fast and simple. Like it actually was too fast and easy... I was expecting much more of a challenge.
+
+The last major side project I built was a fintech app using React, deployed on AWS with S3 + Lambdas, integrated with ButterCMS, and had a Github Action for CI/CD. I designed overkill architecture for a simple static site.
 
 That took me many months to build and get right. Most of the time spent was fighting with the medium clone that I had forked, and integrating with the headless CMS. I have a feeling that I would have saved a lot of time if I had just used Hugo from the start.
 
-Overall, I am super excited with how this came out, and I am looking forward to investigating what limits I can push this stack to. More to come soon!
+Overall, I am super excited with how this came out, and I am looking forward to investigating what limits I can push this stack to. 
+
+More to come soon!
