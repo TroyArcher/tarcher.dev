@@ -28,7 +28,7 @@ cover:
     relative: false
     hidden: true
 editPost:
-    URL: "https://github.com/TroyArcher/tarcher.dev/blob/main/content/posts/building-a-portfolio.md"
+    URL: "https://github.com/TroyArcher/tarcher.dev/blob/main/content/"
     Text: "Suggest Changes"
     appendFilePath: true
 ---
