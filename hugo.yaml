@@ -102,7 +102,7 @@ params:
     hiddenInSingle: true
 
   editPost:
-    URL: "https://github.com/TroyArcher/tarcher.dev/content"
+    URL: "https://github.com/TroyArcher/tarcher.dev/tree/main/content/posts/"
     Text: "Suggest Changes"
     appendFilePath: true
 
