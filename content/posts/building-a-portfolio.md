@@ -1,6 +1,6 @@
 ---
 title: "Building a Portfolio & Dev Blog"
-date: 2025-10-12T12:30:00-05:00
+date: 2025-10-12T12:30:00-05:01
 draft: false
 tags: ["web development", "frontend"]
 categories: ["Software Engineering"]
