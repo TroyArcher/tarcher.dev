@@ -1,6 +1,6 @@
 ---
 title: "Building a Hackathon Project"
-date: 2025-02-28T12:30:00-05:00
+date: 2026-02-28T12:30:00-05:00
 draft: false
 tags: ["backend", "ai"]
 categories: ["Software Engineering"]
