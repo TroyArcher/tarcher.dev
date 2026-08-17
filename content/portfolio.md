@@ -35,42 +35,55 @@ I am Troy Archer, a Senior Software Engineer specializing in backend systems, mi
 - Go
 - Python
 - Java
+- C++
+- C# (.NET)
 - TypeScript / JavaScript
 - Rust
 - SQL
 
-**Backend & Architecture**
+**Backend & Systems**
 - Microservices Architecture (Go, Python, Java)
 - Java & Spring Boot HTTP Services
-- In-House Workflow Systems
-- RESTful APIs & gRPC
-- Distributed Event Streaming & Queuing (AWS SQS, Kafka, Redis Pub/Sub)
+- In-House Workflow Engines & Redesign
+- RESTful APIs, gRPC & Protocol Buffers
+- Distributed Event Streaming & Queuing (AWS SQS, SNS, Kafka, Redis Pub/Sub)
 - Retrieval-Augmented Generation (RAG) & Vector Search
-- High-Throughput Message Processing
+- Real-Time Embedded Systems & Linux
+
+**Cloud & DevOps**
+- Amazon Web Services (AWS: SQS, SNS, ECS, EKS, RDS, DynamoDB, Lambda)
+- Google Cloud Platform (GCP)
+- Docker & Kubernetes
+- Terraform & Infrastructure as Code
+- CI/CD Automation (GitHub Actions)
+
+**Frontend & Web**
+- React & Node.js
+- TypeScript & JavaScript
+- AngularJS
 
 **Databases & Storage**
 - PostgreSQL (Amazon RDS)
 - Amazon DynamoDB
+- Microsoft SQL Server
 - Redis
 - MongoDB
 - Time-series Databases
 
-**Cloud & DevOps**
-- Amazon Web Services (AWS: SQS, ECS, EKS, RDS, DynamoDB, Lambda)
-- Google Cloud Platform (GCP)
-- Docker & Kubernetes (CKA)
-- Terraform
-- CI/CD Pipelines (GitHub Actions)
-
 **AI Engineering & Agent Orchestration**
 - Agent Tooling: Claude Code, Antigravity, Codex
-- Agent Orchestration: Skills, Workflows, and Outcome-Focused Prompts
+- Agent Orchestration: Custom Skills, Workflows, and Outcome-Focused Prompts
 - Runtime Isolation: Devcontainers for Sandboxed Agent Automation and Test Execution
+
+**Methodologies & Leadership**
+- Agile Scrum & Sprint Leadership
+- Technical Mentorship & Code Reviews
+- Object-Oriented Design & Architecture
 
 ## Professional Experience
 
 ### Senior Software Engineer | Bandwidth
-*2022 - Present*
+*Jul 2025 - Present*
 
 - Architect and maintain high-availability backend microservices in Go, Python, and Java on AWS (ECS, EKS, SQS, Lambda) serving millions of daily messaging transactions.
 - Lead the technical design and implementation of automated Toll-Free message verification and compliance engines.
@@ -78,14 +91,39 @@ I am Troy Archer, a Senior Software Engineer specializing in backend systems, mi
 - Reduce system downtime by 80 percent through real-time telemetry, automated alerting, and resilient system design.
 - Establish engineering standards, conduct code reviews, and mentor software engineers.
 
-### Software Engineer | Bandwidth
-*2020 - 2022*
+### Software Engineer II (Messaging) | Bandwidth
+*Sep 2023 - Jul 2025*
 
-- Developed Java Spring Boot HTTP applications and REST APIs supporting messaging services and customer management.
-- Engineered and maintained an in-house workflow orchestration system to automate multi-step messaging pipelines.
-- Built automated CI/CD pipelines, reducing deployment cycle times from hours to minutes.
-- Optimized PostgreSQL database schema and indexing, improving query response times by 60 percent.
-- Collaborated with cross-functional teams to deliver key product features on schedule.
+- Led full lifecycle removal of an overengineered workflow engine from the Toll-Free Verification system: researched, designed, and drove implementation to completion, saving ~$50K/year in AWS costs.
+- Designed and delivered the document management feature for the Short Code Registration Center, creating a scalable, reusable architecture aligned with compliance requirements.
+- Served as liaison across cross-functional teams to deliver the Short Code and 10DLC Registration Centers, enabling millions in new revenue for Bandwidth.
+- Improved CI/CD pipeline robustness by developing automated AWS cleanup scripts, eliminating resource leaks and reducing operational costs.
+- Provided technical mentorship and created detailed documentation, directly mentoring a software engineering intern.
+
+### Software Engineer II (Voice) | Bandwidth
+*Feb 2022 - Aug 2023*
+
+- Designed and implemented internal fraud prevention products in React, Java, and Spring Boot to proactively mitigate fraudulent activities network-wide.
+- Contributed to the development and maintenance of Bandwidth compliance with FCC-mandated STIR/SHAKEN regulations, saving approximately $1.2M in annual fines.
+- Modernized and optimized legacy telecom voice services and sunset outdated systems.
+- Mentored junior engineers and led Scrum process improvements.
+
+### Lead Software Engineer | Tonquin
+*Nov 2019 - Feb 2022*
+
+- Served as team lead for a seven-member engineering team driving the Last-Mile Delivery Marketplace for auto parts.
+- Architected and developed backend software using the .NET Framework, C#, and Microsoft SQL Server.
+- Designed, built, and tested custom delivery request and job scheduling REST APIs.
+- Developed an automated analytics and dispatch tool in Python, optimizing resource allocation and delivery efficiency.
+- Established software development lifecycle processes using Agile Scrum and achieved 90% unit test coverage with NUnit.
+
+### Software Engineer | SRC
+*Jun 2018 - Jan 2021*
+
+- Developed high-performance real-time embedded software for radar defense systems using C++.
+- Designed system integration APIs using Protocol Buffers to enable seamless interoperability with external systems.
+- Implemented radar signal processing algorithms, sector blanking features, and projectile discrimination capabilities.
+- Maintained strict security protocols and industry best practices for defense contractor software compliance.
 
 ## Featured Projects
 
@@ -111,37 +149,17 @@ Developed an AI-driven compliance engine to detect campaign drift in telecommuni
 - **Accuracy & Reliability**: Achieved high verification confidence scores and eliminated manual audit overhead.
 - **Recognition**: Awarded 2nd place out of 29 team submissions in Bandwidth Hackathon 2025.
 
----
+## Education
 
-### Distributed Task Queue System
+### Syracuse University
+**Master of Science in Computer Science**
+*2019 – 2020*
 
-**Technologies**: Go, Redis, PostgreSQL, Docker, Kubernetes
-
-Built a high-performance distributed task execution engine designed for auto-scaling worker nodes based on queue depth.
-
-- **Fault Tolerance**: Implemented exponential backoff retries and dead-letter queues.
-- **Throughput**: Processed over 10 million jobs daily with sub-second execution latency.
-
----
-
-### Real-Time Analytics Dashboard
-
-**Technologies**: React, TypeScript, Node.js, WebSockets, Time-Series Storage
-
-Created a streaming operational dashboard for real-time monitoring of telecommunications network metrics.
-
-- **Live Streaming**: Leveraged WebSockets to render low-latency metric updates.
-- **Incident Reduction**: Reduced mean time to detection for traffic anomalies from hours to minutes.
-
-## Education & Certifications
-
+### Le Moyne College
 **Bachelor of Science in Computer Science**
-Graduated 2020
-
-**Certifications**:
-- AWS Certified Solutions Architect - Associate
-- Certified Kubernetes Administrator (CKA)
-- Google Cloud Professional Cloud Architect
+*2014 – 2018*
+- Minor: Mathematics
+- Concentration: Computer Engineering
 
 ## Contact
 
