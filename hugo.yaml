@@ -48,9 +48,9 @@ outputs:
 
 params:
   env: production
-  title: Troy Archer - Software Engineer
-  description: "Software Engineer's Blog and Portfolio"
-  keywords: [Blog, Portfolio, Software Engineer]
+  title: Troy Archer - Senior Software Engineer
+  description: "Senior Software Engineer portfolio and technical blog focusing on distributed systems and telecommunications platform architecture."
+  keywords: [Software Engineer, Distributed Systems, Telecommunications, Cloud Architecture, Microservices]
   author: Troy Archer
   DateFormat: "January 2, 2006"
   defaultTheme: auto
@@ -81,14 +81,14 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "Hi there! Welcome to my blog"
-    Content: Welcome to my personal blog and portfolio. I'm a software engineer who enjoys building things and sharing my experiences with technology, coding, and problem-solving.
+    Title: "Troy Archer"
+    Content: "Senior Software Engineer specializing in distributed systems, high-throughput microservices, and telecommunications architecture."
 
   socialIcons:
     - name: github
       url: "https://github.com/TroyArcher"
     - name: linkedin
-      url: "https://linkedin.com/in/troyharcher"
+      url: "https://www.linkedin.com/in/troyharcher/"
     - name: email
       url: "mailto:tarcherdev@gmail.com"
 
